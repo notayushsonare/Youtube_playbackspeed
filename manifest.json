@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Increase the playback speed extension",
+    "version": "0.01",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    
+    ]
+}
